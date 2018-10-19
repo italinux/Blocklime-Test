@@ -29,13 +29,15 @@ JS:
 
 **Cross-Browser**:
 
-  * Opera v11
+  * Opera v54.0.2
     
-  * Fiefox v12
+  * Fiefox v62.0.3
     
-  * Chromium v13
+  * Chromium v69.0.3 
+  
+  * Safari v10.0.1
     
-  * Konqueror v1.2
+  * Konqueror v5.0.97
 <br />
  
 **Cross-Device**:
