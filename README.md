@@ -24,7 +24,7 @@ JS:
 
 ## Tests Results
 
-[Cross-Browser]
+**[Cross-Browser]**
 
   * Opera v11
     
@@ -33,8 +33,9 @@ JS:
   * Chromium v13
     
   * Konqueror v1.2
-    
-[Cross-Device]
+ 
+ 
+**[Cross-Device]**
 
    * Desktops
     
