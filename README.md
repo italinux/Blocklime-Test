@@ -1,10 +1,12 @@
 # Blocklime Test
 Blocklime Test - front-end web dev
 
+
 ## Delivery
 Started:    Monday 15/10/2018 13h (GMT+1 Paris)
 
 Completed:  Friday 19/10/2018 16h (GMT+1 Paris)
+
 
 ## Built With
 
@@ -18,9 +20,11 @@ JS:
   * JQuery v1.12.3
   * JQuery Waypoints v1.3.0
 
+
 ## Online Demo
 
 Demo: <a href="http://italinux.com/test-blocklime" target="_blank">http://italinux.com/test-blocklime</a>
+
 
 ## Tests Results
 
@@ -42,12 +46,14 @@ Demo: <a href="http://italinux.com/test-blocklime" target="_blank">http://italin
     
     Mobiles
 
+
 ## Author
 
 * **Matteo Montanari** - (http://matteo-montanari.com)
 
 See also the list of [contributors](https://github.com/your/repository/contributors) who 
 participated in this project.
+
 
 ## License
 
