@@ -38,6 +38,8 @@ JS:
   * Safari v10.0.1
     
   * Konqueror v5.0.97
+
+  * IE v11
 <br />
  
 **Cross-Device**:
