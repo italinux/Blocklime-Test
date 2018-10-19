@@ -46,7 +46,6 @@ JS:
     
    * Mobiles
 <br />
-<br />
 
 ## Author
 
