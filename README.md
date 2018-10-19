@@ -28,23 +28,25 @@ Demo: <a href="http://italinux.com/test-blocklime" target="_blank">http://italin
 
 ## Tests Results
 
-* [Cross-Browser]
+[Cross-Browser]
+
+  * Opera v11
     
-      Opera v11
+  * Fiefox v12
     
-      Fiefox v12
+  * Chromium v13
     
-      Chromium v13
+  * Konqueror v1.2
     
-      Konqueror v1.2
+[Cross-Device]
+
+   * Large Desktops
+
+   * Desktops
     
-* [Cross-Devices]
+   * Tablets
     
-      Desktops
-    
-      Tablets
-    
-      Mobiles
+   * Mobiles
 
 
 ## Author
