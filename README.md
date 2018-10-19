@@ -23,8 +23,6 @@ CSS:
 JS:
   * JQuery v1.12.3
   * JQuery Waypoints v1.3.0
-<br />
-<br />
 
 ## Tests Results
 
@@ -38,7 +36,6 @@ Cross-Browser:
     
   * Konqueror v1.2
 <br />
-<br />
  
 Cross-Device:
 
@@ -47,8 +44,6 @@ Cross-Device:
    * Tablets
     
    * Mobiles
-<br />
-<br />
 
 ## Author
 
