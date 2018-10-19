@@ -1,7 +1,7 @@
 # Blocklime Test
 Blocklime Test - front-end web dev
 
-**Demo**: <a href="http://italinux.com/test-blocklime" target="_blank">http://italinux.com/test-blocklime</a>
+**Online Demo**: <a href="http://italinux.com/test-blocklime" target="_blank">http://italinux.com/test-blocklime</a>
 <br />
 <br />
 
@@ -49,7 +49,7 @@ JS:
 
 ## Author
 
-**Matteo Montanari**
+**Matteo Montanari** (italinux)
 
   http://matteo-montanari.com
 <br />
