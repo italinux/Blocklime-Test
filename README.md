@@ -1,7 +1,7 @@
 # Blocklime Test
 Blocklime Test - front-end web development
 
-**online Demo**: <a href="http://italinux.com/test-blocklime" target="_blank">http://italinux.com/test-blocklime</a>
+**Demo**: <a href="http://italinux.com/test-blocklime" target="_blank">http://italinux.com/test-blocklime</a>
 <br />
 <br />
 
@@ -17,12 +17,12 @@ Blocklime Test - front-end web development
 CSS:
   * Bootstrap v4.1.3
   * Font-Awesome v4.7.0
-  * Animate.css v1.3.0
-  * Hamburgers.css v1.1.3
+  * Animate.css v3.1.5 (http://daneden.me/animate)
+  * Hamburgers.css v1.1.3 (https://jonsuh.com/hamburgers)
 
 JS:
-  * JQuery v1.12.3
-  * JQuery Waypoints v1.3.0
+  * JQuery v1.12.4
+  * JQuery Waypoints v3.1.1 (https://github.com/imakewebthings/waypoints)
 <br />
 
 ## Tests Results
