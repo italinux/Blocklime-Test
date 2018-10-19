@@ -23,12 +23,11 @@ CSS:
 JS:
   * JQuery v1.12.3
   * JQuery Waypoints v1.3.0
-
-
+<br />
 
 ## Tests Results
 
-Cross-Browser:
+**Cross-Browser**:
 
   * Opera v11
     
@@ -39,15 +38,15 @@ Cross-Browser:
   * Konqueror v1.2
 <br />
  
-Cross-Device:
+**Cross-Device**:
 
    * Desktops
     
    * Tablets
     
    * Mobiles
-
-
+<br />
+<br />
 
 ## Author
 
