@@ -3,6 +3,7 @@ Blocklime Test - front-end web dev
 
 ## Delivery
 Started:    Monday 15/10/2018 13h (GMT+1 Paris)
+
 Completed:  Friday 19/10/2018 16h (GMT+1 Paris)
 
 ## Built With
@@ -17,21 +18,28 @@ JS:
   * JQuery v1.12.3
   * JQuery Waypoints v1.3.0
 
-## Demo
+## Online Demo
 
 Demo: <a href="http://italinux.com/test-blocklime" target="_blank">http://italinux.com/test-blocklime</a>
 
 ## Tests Results
 
 * [Cross-Browser]
+    
     Opera 11
+    
     Fiefox 12
+    
     Chromium 13
+    
     Konqueror 1.2
     
 * [Cross-Devices]
+    
     Desktops
+    
     Tablets
+    
     Mobiles
 
 ## Author
@@ -43,4 +51,4 @@ participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+// ///
