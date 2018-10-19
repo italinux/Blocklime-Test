@@ -1,5 +1,5 @@
 # Blocklime Test
-Blocklime Test - front-end web dev
+Blocklime Test - front-end web development
 
 **online Demo**: <a href="http://italinux.com/test-blocklime" target="_blank">http://italinux.com/test-blocklime</a>
 <br />
