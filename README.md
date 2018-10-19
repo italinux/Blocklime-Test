@@ -23,6 +23,8 @@ CSS:
 JS:
   * JQuery v1.12.3
   * JQuery Waypoints v1.3.0
+<br />
+<br />
 
 ## Tests Results
 
