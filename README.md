@@ -1,7 +1,7 @@
 # Blocklime Test
 Blocklime Test - front-end web dev
 
-Demo: <a href="http://italinux.com/test-blocklime" target="_blank">http://italinux.com/test-blocklime</a>
+### **Demo**: <a href="http://italinux.com/test-blocklime" target="_blank">http://italinux.com/test-blocklime</a>
 
 ## Delivery
 Started:    Monday 15/10/2018 13h (GMT+1 Paris)
@@ -35,8 +35,6 @@ JS:
   * Konqueror v1.2
     
 [Cross-Device]
-
-   * Large Desktops
 
    * Desktops
     
