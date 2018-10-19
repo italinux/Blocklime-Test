@@ -1,12 +1,12 @@
 # Blocklime Test
 Blocklime Test - front-end web dev
 
-### **Demo**: <a href="http://italinux.com/test-blocklime" target="_blank">http://italinux.com/test-blocklime</a>
+**Demo**: <a href="http://italinux.com/test-blocklime" target="_blank">http://italinux.com/test-blocklime</a>
 
 ## Delivery
-Started:    Monday 15/10/2018 13h (GMT+1 Paris)
+**Start date**:    Monday 15/10/2018 13h (GMT+1 Paris)
 
-Completed:  Friday 19/10/2018 16h (GMT+1 Paris)
+**End date**:  Friday 19/10/2018 16h (GMT+1 Paris)
 
 
 ## Built With
@@ -22,7 +22,7 @@ JS:
   * JQuery Waypoints v1.3.0
 
 
-## Tests Results:
+## Tests Results
 
 [Cross-Browser]
 
