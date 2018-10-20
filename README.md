@@ -23,6 +23,7 @@ CSS:
 JS:
   * JQuery v1.12.4
   * JQuery Waypoints v3.1.1 (https://github.com/imakewebthings/waypoints)
+  * JQuery Animafy v1.1.2 (Matteo Montanari)
 <br />
 
 ## Tests Results
@@ -33,7 +34,7 @@ JS:
     
   * Fiefox v62.0.3
     
-  * Chromium v69.0.3 
+  * Google Chrome v69.0.3 
   
   * Safari v10.0.1
     
