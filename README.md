@@ -22,6 +22,7 @@ CSS:
 
 JS:
   * JQuery v1.12.4
+  * Bootstrap v4.1.3
   * JQuery Waypoints v3.1.1 (https://github.com/imakewebthings/waypoints)
   * JQuery Readmore.js v2 (http://jedfoster.github.io/Readmore.js)
   * JQuery Animafy v1.1.2 (Matteo Montanari)
