@@ -498,6 +498,7 @@ section.banner div.search-box {
   width: 90%;
   max-width: 700px;
   margin: 0px auto;
+  padding-top: 1.2em;
   text-align: center;
 }
 section.banner div.search-box form {
