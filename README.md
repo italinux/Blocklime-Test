@@ -5,10 +5,10 @@ Blocklime Test - front-end web development
 <br />
 <br />
 
-## Delivery
-**Start date**:    Monday 15/10/2018 13h (GMT+1 Paris)
+## Time Delivery
+**I started coding**:    Monday 15 October 2018 at 13h (GMT+1 Paris) = 7pm (Kuala Lumpur)
 
-**End date**:  Friday 19/10/2018 16h (GMT+1 Paris)
+**I've completed it**:  Friday 22/10/2018 22h (GMT+1 Paris) = 4am (Kuala Lumpur)
 <br />
 <br />
 
