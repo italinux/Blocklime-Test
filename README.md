@@ -3,7 +3,7 @@ Blocklime Test - front-end web development
 
 **Demo**: <a href="http://italinux.com/test-blocklime" target="_blank">http://italinux.com/test-blocklime</a>
 
-<small> **mockups**: <a href="http://italinux.com/test-blocklime-source" target="_blank">http://italinux.com/test-blocklime-source</a></small>
+mockups: <a href="http://italinux.com/test-blocklime-source" target="_blank">http://italinux.com/test-blocklime-source</a>
 <br />
 <br />
 
