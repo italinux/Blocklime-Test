@@ -8,7 +8,7 @@ Blocklime Test - front-end web development
 ## Time Project Delivery
 **I started coding**:    Monday **15 October** 2018 at 13h (GMT+1 Paris) **=** 7pm (Kuala Lumpur)
 
-**I've completed it**:  Friday **22 October** 2018 at 22h (GMT+1 Paris) **=** 4am (Kuala Lumpur)
+**I've completed it**:  Monday **22 October** 2018 at 22h (GMT+1 Paris) **=** 4am (Kuala Lumpur)
 <br />
 <br />
 
