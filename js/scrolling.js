@@ -50,7 +50,7 @@ $(function() {
         */
         switch(thisHash) {
             case 'trip-plans':
-                offsetConfig = { desktop: 110, mobile: 100 };
+                offsetConfig = { desktop: 150, mobile: 100 };
                 break;
             case 'about-me':
                 offsetConfig = { desktop: 70 };
