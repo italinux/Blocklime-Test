@@ -1,1 +1,0 @@
-$(function(){$(".hamburger").on("click",function(e){$(this).addClass("hamburger--slider-r");$(this).toggleClass("is-active");$(this).closest("nav").find(".menu-wrapper").toggleClass("fixed")})});
