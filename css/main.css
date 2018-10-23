@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+/*!
+* name: main
+* type: CSS
+* provides: Structure Main adjustments
+*           Some basic utils
+*
+* @author: Matteo Montanari <matteo@italinux.com>
+* @link: http://italinux.com
+*
+* ============================================
+* Main
+* ============================================
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, button {
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  background: transparent;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*:focus {
+  outline: 0;
+}
+html {
+  overflow-y: scroll;
+}
+body {
+  background-image: none;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  overflow: hidden;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+ul, ol {
+  margin-left: 0;
+  list-style-position: outside;
+}
+ul, ul li {
+  list-style-type: disc;
+}
+ol {
+  list-style-type: circle;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Utils
+----------------------------- */
+.rotate-135 {
+  -webkit-transform: rotate(135deg);
+     -moz-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+       -o-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
+.hide {
+  display: none;
+  visibility: hidden;
+}
+.show {
+  display: block;
+  visibility: visible;
+}
+.nopaque {
+  opacity: 0;
+}
+.opaque {
+  opacity: 1;
+}
+
+/* Preloader
+----------------------------- */
+div#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  background-color: rgba(55, 77, 97, 0.8);
+  z-index: 9999;
+}
+div#preloader > div.spinner {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  width: 90px;
+  height: 90px;
+  margin: -45px 0 0 -45px;
+
+  background-color: #fff;
+  background-image: url("../images/pre-loader.gif");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+
+  border-radius: 45px;
+  opacity: 0.4;
+}
+
+/* Scroll Top - bottom right arrow
+----------------------------- */
+div#scroll-top {
+  position: fixed;
+  right: -145px;
+  bottom: 5px;
+  width: 85px;
+  height: 85px;
+  padding-left: 0.8%;
+  padding-top: 0.5%;
+
+  -webkit-transition: all 0.3s ease 0s;
+     -moz-transition: all 0.3s ease 0s;
+      -ms-transition: all 0.3s ease 0s;
+       -o-transition: all 0.3s ease 0s;
+          transition: all 0.3s ease 0s;
+
+  background-color: #39c56a;
+  border-top-left-radius: 85%;
+  border-top-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+
+  cursor: pointer;
+  font-size: 0.65em;
+  text-align: center;
+  color: #fff;
+
+  justify-content: center;
+  display: flex;
+  z-index: 10;
+}
+div#scroll-top:hover {
+  opacity: 0.9;
+}
+div#scroll-top.visible {
+  right: 5px;
+}
+div#scroll-top .fa {
+  align-self: center;
+}
+@media screen and (max-width: 1024px) {
+  div#scroll-top {
+    display: none;
+  }
+}

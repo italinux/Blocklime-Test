@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/*!
+* name: bootstrap-theme
+* type: CSS
+* provides: Custom entries for Bootstrap
+*           Custom Boostrap Theme
+*
+* @component: bootstrap.min.css
+*
+* Version: 0.9.0
+* Copyright © 2018
+* Licensed under the MIT license.
+*
+* @author: Matteo Montanari <matteo@italinux.com>
+* @link: http://italinux.com
+*
+* ============================================
+* Custom entries for Bootstrap - Bootstrap Theme
+* ============================================
+*/
+
+/* Bootstrap Button: Generic
+----------------------------- */
+.btn {
+  min-width: 150px;
+  max-width: 460px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 18px 35px;
+  border-width: 0px;
+  border-style: none;
+  border-radius: 40px;
+  display: inline-block;
+}
+.btn:hover,
+.btn:focus,
+.btn:active {
+  outline: invert none 0px;
+  text-decoration: none;
+}
+.btn:active {
+  box-shadow: none;
+}
+
+/* Bootstrap Button: Primary
+----------------------------- */
+.btn.btn-primary {
+  background-image: none;
+  background-repeat: no-repeat;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  border: none;
+}
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+  background-position: inherit;
+}
+.btn.btn-primary:active {
+  background-image: none;
+  box-shadow: none;
+}

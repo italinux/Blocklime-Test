@@ -1,0 +1,927 @@
+@charset "utf-8";
+
+/*!
+* name: style
+* type: CSS
+* provides: All sections styles
+*
+* @author: Matteo Montanari <matteo@italinux.com>
+* @link: http://italinux.com
+*
+* ============================================
+* All sections styles
+* ============================================
+*/
+body {
+  color: #222;
+  background-color: #fff;
+}
+
+.btn:hover, .btn:focus, .btn:active {
+  opacity: 0.9;
+}
+.btn.btn-primary {
+  color: #fff;
+  background-color: #39c56a;
+}
+.btn.btn-primary:active, .btn.btn-primary:focus {
+  background-color: #32af5e !important;
+  box-shadow: none !important;
+}
+
+a, a:focus, a:active, a:hover {
+  color: #39c56a;
+}
+a, a:focus, a:active {
+  outline: none;
+  text-decoration: underline;
+}
+a:hover {
+  outline: none;
+  text-decoration: none;
+}
+
+section {
+  position: relative;
+  overflow: hidden;
+}
+.page-block {
+  margin: 0px auto;
+  padding: 6em 8%;
+}
+.overlay {
+  background-color: transparent;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-size: auto;
+  background-position: center center;
+}
+.overlay::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+  content: "";
+}
+div.block-header {
+  position: relative;
+  padding: 0 0 3em;
+  text-align: center;
+  border: none;
+}
+@media screen and (max-width: 1920px) {
+  .page-block {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .page-block {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .page-block {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .page-block {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .page-block {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+/*
+* ============================================
+* - Menu
+* ============================================
+*/
+section.menu {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px; 
+  width: 100%;
+  color: #fff;
+  overflow: visible;
+  z-index: 4;
+}
+section.menu a {
+  color: inherit;
+}
+section.menu.overlay::before {
+  -webkit-transition: opacity 0.5s ease-in-out 0s;
+     -moz-transition: opacity 0.5s ease-in-out 0s;
+      -ms-transition: opacity 0.5s ease-in-out 0s;
+       -o-transition: opacity 0.5s ease-in-out 0s;
+          transition: opacity 0.5s ease-in-out 0s;
+
+  opacity: 0.25;
+}
+section.menu.overlay::before,
+section.menu div.menu-wrapper.fixed {
+  background-color: rgba(55, 77, 97, 0.68);
+}
+
+section.menu.overlay.with-fade::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+  content: "";
+  opacity: 1 !important;
+}
+section.menu nav.navbar {
+  position: relative;
+  width: 100%;
+  min-height: 70px;
+  margin: 0px;
+  padding: 1px;
+  z-index: 1;
+}
+section.menu div.navbar-left {
+  position: absolute;
+  min-width: 50px;
+  width: 20%;
+  top: 50%;
+  left: 0;
+  margin: 0 auto;
+  text-align: center;
+  transform: translate(0%, -50%);
+}
+
+/* Logo */
+section.menu nav.navbar img {
+  max-height: 50px;
+  width: auto;
+  vertical-align: middle;
+}
+
+/* Navbar Hamburger */
+section.menu div.navbar-toggler {
+  width: 20%;
+  min-width: 65px;
+}
+section.menu div.navbar-toggler div.hamburger {
+  padding: 0.7em;
+}
+section.menu div.navbar-toggler div.hamburger .hamburger-inner,
+section.menu div.navbar-toggler div.hamburger .hamburger-inner::before,
+section.menu div.navbar-toggler div.hamburger .hamburger-inner::after {
+  left: 0px;
+  right: 0px;
+  height: 2px;
+  margin: 0px auto;
+  background-color: #fff;
+}
+
+/* Menu items */
+section.menu div.navbar-collapse {
+  position: relative;
+  width: auto;
+  min-height: 50px;
+  margin: 10px 10%;
+  z-index: -1;
+}
+section.menu div.menu-wrapper {
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  width: auto;
+  height: 100%;
+  margin: 0px 0px 0px auto;
+  text-align: center;
+  float: right;
+}
+section.menu div.menu-wrapper ul {
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+  align-self: center;
+  vertical-align: middle;
+}
+section.menu div.menu-wrapper li {
+  padding: 0px 14px;
+  display: inline-block;
+}
+section.menu div.menu-wrapper li a:hover,
+section.menu div.menu-wrapper li a:focus,
+section.menu div.menu-wrapper li a:active,
+section.menu div.menu-wrapper li a.active,
+section.menu div.menu-wrapper li a.active:focus {
+  opacity: 0.9;
+}
+section.menu div.menu-wrapper li a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* Dropdown */
+section.menu div.dropdown-menu {
+  background-color: rgba(55, 77, 97, 0.3);
+  box-shadow: 0px 0px 1px #fff;
+  border: none;
+  opacity: 1 !important;
+}
+section.menu.overlay.with-fade div.dropdown-menu {
+  background-color: rgba(55, 77, 97, 0.7);
+}
+section.menu div.dropdown-menu a {
+  padding: 5px 1.2em !important;
+  color: #fff;
+}
+section.menu div.dropdown-menu a:hover,
+section.menu div.dropdown-menu a:focus,
+section.menu div.dropdown-menu a:active,
+section.menu div.dropdown-menu a.active,
+section.menu div.dropdown-menu a.active:focus {
+  background-color: rgba(34, 34, 34, 0.3);
+}
+
+/* Fullscreen: Menu Title (Visible only on Tablets) */
+section.menu div.title-wrapper {
+  position: relative;
+  width: auto;
+  min-height: 48px;
+  margin: 3px auto 0px auto;
+  padding: 0px;
+  text-align: center;
+  vertical-align: middle;
+  flex-direction: column;
+  justify-content: center;
+  display: none;
+}
+section.menu div.title-wrapper h5 {
+  padding: 0px;
+  margin: 0px;
+}
+section.menu div.title-wrapper a {
+  text-decoration: none;
+}
+
+/* Fullscreen: Menu Fixed */
+section.menu div.menu-wrapper.fixed {
+  position: fixed;
+  width: 100%;
+  display: block !important;
+}
+section.menu div.menu-wrapper.fixed ul {
+  position: absolute;
+  max-width: 600px;
+  width: 96%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+}
+section.menu div.menu-wrapper.fixed ul li {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 10px;
+  display: contents;
+  overflow: hidden;
+}
+section.menu div.menu-wrapper.fixed ul li a {
+  display: block;
+}
+section.menu div.menu-wrapper:not(.fixed) div.dropdown-menu > div.dropdown-divider:last-child {
+  display: none
+}
+
+/* Media Tablets
+----------------------------- */
+@media screen and (max-width: 1024px) {
+  section.menu div.navbar-toggler {
+    display: block;
+  }
+  section.menu div.title-wrapper.show {
+    display: flex;
+  }
+  section.menu .nav-logo {
+    display: none;
+  }
+  section.menu div.menu-wrapper {
+    display: none;
+  }
+  section.menu div.menu-wrapper.fixed li a {
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+  section.menu div.menu-wrapper.fixed ul li.nav-item.dropdown.show {
+    top: 50px;
+  }
+  section.menu div.dropdown-menu {
+    position: static !important;
+    background-color: transparent !important;
+    box-shadow: none;
+  }
+  section.menu div.dropdown-menu a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  section.menu div.dropdown-menu a:hover,
+  section.menu div.dropdown-menu a:focus,
+  section.menu div.dropdown-menu a:active,
+  section.menu div.dropdown-menu a.active,
+  section.menu div.dropdown-menu a.active:focus {
+    background-color: transparent;
+  }
+  section.menu div.dropdown-menu div.dropdown-divider {
+    opacity: 0.6
+  }
+}
+
+/* Media Large Mobiles
+----------------------------- */
+@media screen and (max-width: 768px) {
+  section.menu.overlay.with-fade::before {
+    opacity: 0.85 !important;
+  }
+  section.menu nav.navbar {
+    min-height: 60px !important;
+  }
+  section.menu nav.navbar div.navbar-toggler {
+    width: 10%;
+    padding: 0px;
+    margin-top: 3px;
+  }
+  section.menu nav.navbar div.navbar-toggler div.hamburger .hamburger-inner,
+  section.menu nav.navbar div.navbar-toggler div.hamburger .hamburger-inner::before,
+  section.menu nav.navbar div.navbar-toggler div.hamburger .hamburger-inner::after {
+    width: 32px;
+  }
+  section.menu nav.navbar div.navbar-toggler {
+    -webkit-animation: 0s ease 0s normal none 1 running none;
+       -moz-animation: 0s ease 0s normal none 1 running none;
+         -o-animation: 0s ease 0s normal none 1 running none;
+            animation: 0s ease 0s normal none 1 running none;
+    -webkit-transition-property: none;
+       -moz-transition-property: none;
+         -o-transition-property: none;
+            transition-property: none;
+  }
+  section.menu nav.navbar div.navbar-collapse {
+    max-width: 500px;
+    min-height: 50px;
+    margin: 4px auto;
+
+  }
+}
+
+/*
+* ============================================
+* - Banner
+* ============================================
+*/
+section.banner {
+  min-height: 940px;
+  color: #fff;
+}
+section.banner a {
+  color: inherit;
+}
+section.banner.overlay {
+  background-color: #374d61;
+  background-image: url(../images/bg-hero.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-clip: content-box;
+  background-origin: content-box;
+}
+section.banner.overlay::before {
+  top: 50%;
+  width: 35%;
+  height: 50%;
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 50%;
+  background-size: auto;
+  background-position: center;
+  -webkit-transform: translate(0%, -50%);
+     -moz-transform: translate(0%, -50%);
+       -o-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+  opacity: 0;
+}
+section.banner > div[class^="container"] {
+  position: relative;
+  right: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  padding-top: 10%;
+  margin: 25px auto 0px auto;
+  text-align: center;
+  vertical-align: middle;
+  align-self: center;
+  display: block;
+  z-index: 1;
+}
+section.banner h1 {
+  letter-spacing: 1em;
+  padding-left: 1em;
+}
+section.banner h5 {
+  margin-bottom: 0px;
+  padding-top: 3.2em;
+}
+section.banner a.CTA-arrow-top {
+  padding-bottom: 15px;
+  text-decoration: none !important;
+  display: inline-block;
+  z-index: 2;
+}
+section.banner a.CTA-arrow {
+  padding: 10px 25px;
+  display: inline-block;
+  z-index: 3;
+}
+@-webkit-keyframes actionfadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes actionfadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes actionfadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes actionfadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+section.banner.overlay::before {
+  -webkit-animation: actionfadein 3s ease-in 1s 1 normal forwards running;
+     -moz-animation: actionfadein 3s ease-in 1s 1 normal forwards running;
+      -ms-animation: actionfadein 3s ease-in 1s 1 normal forwards running;
+       -o-animation: actionfadein 3s ease-in 1s 1 normal forwards running;
+          animation: actionfadein 3s ease-in 1s 1 normal forwards running;
+}
+
+/* Search Form */
+section.banner div.search-box {
+  width: 90%;
+  max-width: 700px;
+  margin: 0px auto;
+  text-align: center;
+}
+section.banner div.search-box form {
+  position: relative;
+}
+section.banner div.search-box form input[type="search"] {
+  width: 100%;
+  margin: 0px auto;
+}
+section.banner div.search-box form > button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  right: 20px;
+  padding: 10px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+section.banner div.search-box form > button:hover {
+  color: #39c56a; 
+}
+
+/* Media Desktops
+----------------------------- */
+@media screen and (max-width: 1600px) {
+  section.banner.overlay::before {
+    top: 40%;
+    width: 40%;
+  }
+}
+
+/* Media Tablets
+----------------------------- */
+@media screen and (max-width: 1280px) {
+  section.banner h1 {
+    padding-left: 0.5em;
+    letter-spacing: 0.5em;
+  }
+  section.banner.overlay::before {
+    width: 70%;
+  }
+  section.banner > div[class^=container] {
+    padding-top: 15%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  section.banner > div[class^=container] {
+    padding-top: 18%;
+  }
+}
+
+/* Media Mobiles
+----------------------------- */
+@media screen and (max-width: 800px) {
+  section.banner.overlay::before {
+    width: 100%;
+  }
+  section.banner > div[class^=container] {
+    padding-top: 20%;
+  }
+}
+@media screen and (max-width: 768px) {
+  section.banner h1 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0em;
+    letter-spacing: 0.2em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  section.banner > div[class^="container"] {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  section.banner a.CTA-arrow {
+    padding-top: 0px;
+  }
+  section.banner a.CTA-arrow .fa {
+    -webkit-animation: 0s ease 0s normal none 1 running none;
+       -moz-animation: 0s ease 0s normal none 1 running none;
+         -o-animation: 0s ease 0s normal none 1 running none;
+            animation: 0s ease 0s normal none 1 running none;
+    -webkit-transform: none;
+       -moz-transform: none;
+         -o-transform: none;
+            transform: none;
+    -webkit-transition-property: none;
+       -moz-transition-property: none;
+         -o-transition-property: none;
+            transition-property: none;
+  }
+}
+
+/*
+* ============================================
+* - PERFECT ROAD TRIP (Travel Gears)
+* ============================================
+*/
+section.travel-gears a.btn-primary {
+  min-width: 54%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+section.travel-gears div.service-item {
+  max-width: 430px;
+  margin: 1.8em auto 3.2em auto;
+  text-align: center;
+}
+section.travel-gears div.service-icon {
+  min-height: 128px;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+section.travel-gears div.service-icon a {
+  margin: 0px auto;
+  text-align: center;
+}
+
+/* Media Mobiles
+----------------------------- */
+@media screen and (max-width: 768px) {
+  section.travel-gears div.service-icon {
+    min-height: 104px;
+  }
+}
+
+/*
+* ============================================
+* - ITINERARIES (Trip Plans)
+* ============================================
+*/
+section.trip-plans.page-block {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+section.trip-plans div.main {
+  position: relative;
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+}
+section.trip-plans div.main > div {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+section.trip-plans div.service-item {
+  position: relative;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+  overflow: visible;
+}
+section.trip-plans div.service-item img.img-fluid {
+  width: 100%;
+}
+section.trip-plans div.service-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+section.trip-plans .speech-bubble {
+  position: relative;
+  min-width: 80%;
+  width: fit-content;
+  max-width: 90%;
+  min-height: 90px;
+  margin: 0px 15% 0px 5%;
+  padding: 15px 10px 0px 10px;
+  border-radius: 0px 0px 25px 40px;
+  border: dashed 2px #cdcdcd;
+  background: #fff;
+  cursor: auto;
+}
+section.trip-plans .speech-bubble h5 {
+  margin-top: 4px;
+  padding-top: 0px;
+}
+section.trip-plans .speech-bubble:before {
+  position: absolute;
+  top: 100%;
+  right: 40%;
+  width: 0;
+  height: 0;
+  border-right: 13px solid transparent;
+  border-top: 26px solid white;
+  border-left: 13px solid transparent;
+  content: "";
+}
+section.trip-plans div.service-item > div.content {
+  position: absolute;
+  top: -2.8em;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  max-width: 480px;
+  min-height: 102px;
+  margin: 0px auto;
+  background-color: transparent;
+  display: none;
+}
+section.trip-plans div.service-item:hover > div.content {
+  display: block;
+}
+
+section.trip-plans div.service-item a.btn, section.trip-plans div.service-item:hover img.img-circle {
+  display: none;
+}
+section.trip-plans div.service-item:hover a.btn {
+  display: block;
+}
+
+/* Media Tablets
+----------------------------- */
+@media screen and (max-width: 1280px) {
+  section.trip-plans div.service-item > div.content {
+    top: -1.8em;
+  }
+}
+
+/* Media Large Mobiles
+----------------------------- */
+@media screen and (max-width: 991px) {
+  section.trip-plans div.service-item {
+    margin-bottom: 3.2em;
+  }
+  section.trip-plans div.main > div:not(:first-of-type) > div {
+    margin-top: 3.2em;
+  }
+  section.trip-plans div.service-item img.img-circle {
+    display: none !important;
+  }
+  section.trip-plans div.service-item > div.content {
+    top: 1em;
+  }
+  section.trip-plans div.service-item > div.content, section.trip-plans div.service-item a.btn {
+    display: block !important;
+  }
+}
+
+/* Media Mobiles
+----------------------------- */
+@media screen and (max-width: 768px) {
+  section.trip-plans div.service-item > div.content {
+    top: -2em;
+  }
+}
+
+/* Media Mobiles
+----------------------------- */
+@media screen and (max-width: 500px) {
+  section.trip-plans div.service-item {
+    margin-bottom: 4.4em;
+  }
+  section.trip-plans div.main > div:not(:first-of-type) > div {
+    margin-top: 6.2em;
+  }
+  section.trip-plans div.service-item > div.content {
+    top: -3.4em;
+  }
+  section.trip-plans .speech-bubble {
+    min-height: 75px;
+    margin: 0px auto;
+  }
+  section.trip-plans .speech-bubble:before {
+    top: 90%;
+  }
+}
+
+/*
+* ============================================
+* - FEATURED STORY (Blog Post)
+* ============================================
+*/
+section.about-me.page-block {
+  padding-bottom: 12em;
+}
+section.about-me div.about-me-left {
+  text-align: right;
+}
+section.about-me div.about-me-photo img {
+  min-width: 90%;
+  max-width: 95%;
+  height: auto;
+  margin: 20px auto 0px auto;
+  box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 0%;
+}
+section.about-me div.about-me-photo {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding-left: 7%;
+  padding-right: 7%;
+  text-align: center;
+}
+
+/* Media Desktops
+----------------------------- */
+@media screen and (max-width: 1920px) {
+  section.about-me.page-block {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  section.about-me div.about-me-photo {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+}
+@media screen and (max-width: 1680px) {
+  section.about-me.page-block {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  section.about-me div.about-me-photo {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+/* Media Tablets
+----------------------------- */
+@media screen and (max-width: 1280px) {
+  section.about-me div.about-me-photo {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  section.about-me div.about-me-photo img {
+    min-width: 85%;
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  section.about-me.page-block {
+    padding-bottom: 10em;
+  }
+  section.about-me div.about-me-text {
+    text-align: center;
+  }
+  section.about-me div.about-me-photo {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  section.about-me.page-block {
+    padding-top: 30px;
+  }
+}
+
+/*
+* ============================================
+* - FOOTER
+* ============================================
+*/
+footer {
+  width: 100%;
+  background-image: url(../images/footer/background.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-color: #374d61;
+  text-align: left;
+  color: #fff;
+}
+footer a {
+  color: inherit !important;
+}
+footer.page-block {
+  margin: 0 auto;
+  padding: 3em 8%;
+}
+footer div.block-header {
+  position: relative;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0 1em 0;
+  text-align: center;
+  border: none;
+  opacity: 0.9;
+}
+footer div.block-header > div {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+  padding-bottom: 15px;
+  overflow: hidden;
+}
+footer div.block-header > div h5 {
+  position: relative;
+  width: 33.3%;
+  display: block;
+  float: left;
+}
+footer div.credits {
+  margin-left: 10%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+  opacity: 0.3;
+}
+
+/* Media Mobiles
+----------------------------- */
+@media screen and (max-width: 768px) {
+  footer.page-block {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  footer div.block-header {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 500px) {
+  footer div.credits {
+    margin-left: 3%;
+  }
+}

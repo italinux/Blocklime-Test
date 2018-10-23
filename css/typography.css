@@ -1,0 +1,290 @@
+@charset "utf-8";
+
+/*!
+* name: typograpy
+* type: CSS
+* provides: Typography
+*
+* @author: Matteo Montanari <matteo@italinux.com>
+* @link: http://italinux.com
+*
+* ============================================
+* Typography
+* ============================================
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:800italic,800,700italic,700,600italic,600,500italic,500,400italic,400,300italic,300,200italic,200");
+@import url("https://fonts.googleapis.com/css?family=Damion");
+
+html {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility !important;
+}
+html a {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility !important;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: normal;
+}
+p {
+  font-size: 1.35em;
+  font-weight: 300;
+  line-height: 1.7em;
+  margin-bottom: 10px;
+}
+small {
+  font-size: 90%;
+}
+p strong {
+  font-weight: 400;
+}
+h1 {
+  font-size: 4em;
+  font-weight: 800;
+  line-height: 0.85em;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 3.2em;
+  font-weight: 800;
+  line-height: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 2.4em;
+  font-weight: 300;
+  line-height: 1.2em;
+  margin-bottom: 25px;
+  padding-top: 15px;
+}
+h4 {
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 1.2em;
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+h5 {
+  font-size: 1.4em;
+  font-weight: 400;
+  line-height: 1.8em;
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+h6 {
+  font-size: 1.2em;
+  font-weight: 200;
+  line-height: 1.2em;
+  margin-bottom: 25px;
+  padding-top: 15px;
+}
+.btn {
+  font-size: 1.2em;
+  line-height: 1em;
+}
+div#scroll-top .fa {
+  font-size: 3.6em;
+}
+
+/* Menu
+--------------------------------------------------------- */
+section.menu div.menu-wrapper li a {
+  font-size: 1em;
+  line-height: 0.9em;
+  font-weight: 700;
+}
+section.menu div.menu-wrapper.fixed li a {
+  font-size: 3em;
+  line-height: 1em;
+  font-weight: 300;
+}
+section.menu div.menu-wrapper:not(.fixed) li a {
+  line-height: 1em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+section.menu div.title-wrapper {
+  font-size: 90%;
+}
+section.menu div.menu-wrapper div.dropdown-menu a {
+  font-weight: 600;
+}
+/* Media Tablets
+----------------------------- */
+@media screen and (max-width: 1024px) {
+  section.menu div.menu-wrapper.fixed li a {
+    font-size: 2.4em;
+  }
+  section.menu div.dropdown-menu {
+    font-size: 80%;
+  }
+  section.menu div.menu-wrapper div.dropdown-menu a {
+    font-weight: 400;
+  }
+}
+
+/* Media Mobiles
+----------------------------- */
+@media screen and (max-width: 768px) {
+  section.menu div.menu-wrapper.fixed li a {
+    font-size: 2em;
+  }
+}
+
+/* Banner
+--------------------------------------------------------- */
+section.banner {
+  font-size: 120%;
+}
+section.banner h3 {
+  font-family: "Damion", cursive;
+  font-size: 4.2em;
+  text-shadow: 1px 1px 2px #444;
+}
+section.banner h1 {
+  font-weight: 800;
+  text-shadow: 1px 1px 5px #444;
+}
+section.banner a.CTA-arrow-top {
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+/* Media Mobiles
+----------------------------- */
+@media screen and (max-width: 500px) {
+  section.banner {
+    font-size: 100%;
+    min-height: 700px;
+  }
+  section.banner a.CTA-arrow {
+    font-size: 70%;
+  }
+}
+
+/* Travel Gears
+--------------------------------------------------------- */
+section.travel-gears h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+section.travel-gears h3 {
+  text-transform: uppercase;
+}
+
+/* Trip Plans
+--------------------------------------------------------- */
+section.trip-plans .speech-bubble h5 {
+  font-weight: 700;
+  line-height: 1.4em;
+}
+section.trip-plans .speech-bubble b {
+  font-weight: 600;
+}
+
+/* About Me
+--------------------------------------------------------- */
+section.about-me div.about-me-text h3:first-of-type {
+  font-weight: 800;
+  letter-spacing: 4px;
+}
+section.about-me div.about-me-text h3 {
+  text-transform: uppercase;
+}
+section.about-me div.about-me-text p {
+  margin-bottom: 12px;
+}
+
+/* Footer
+--------------------------------------------------------- */
+footer div.credits {
+  font-size: 85%;
+  line-height: 1.2em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 0 #374d61;
+}
+
+/* Media Queries
+--------------------------------------------------------- */
+@media screen and (max-width: 500px) {
+  p {
+    font-size: 1.22em;
+  }
+  p strong {
+    font-weight: 400;
+  }
+  div.block-header h4, div.block-header h5, div.block-header h6 {
+    font-weight: 300;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2.2em;
+  }
+  h3 {
+    font-size: 1.8em;
+  }
+  h4 {
+    font-size: 1.8em;
+  }
+  h5 {
+    font-size: 1.2em;
+  }
+}
+
+/* Media Queries: Menu
+--------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+  section.menu div.menu-wrapper.fixed li a {
+    font-size: 2em;
+  }
+}
+
+/* Media Queries: Banner
+--------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+  section.banner h1 {
+    line-height: 1em;
+  }
+}
+@media screen and (max-width: 500px) {
+  section.banner h3 {
+    font-size: 3.2em;
+  }
+}
+
+/* Media Queries: About Me
+--------------------------------------------------------- */
+@media screen and (max-width: 500px) {
+  section.about-me div.about-me-text p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+}
+
+/* Media Queries: Footer
+--------------------------------------------------------- */
+@media screen and (max-width: 500px) {
+  footer div.block-header h5 {
+    font-size: 1em;
+    line-height: 1.4em;
+  }
+  footer div.block-header h6 {
+    font-size: 1.05em;
+    line-height: 1.05em;
+  }
+  footer div.credits {
+    font-size: 81%;
+    letter-spacing: 0.6px;
+  }
+}
