@@ -26,6 +26,7 @@ JS:
   * JQuery Waypoints v3.1.1 (https://github.com/imakewebthings/waypoints)
   * JQuery Readmore.js v2 (http://jedfoster.github.io/Readmore.js)
   * JQuery Animafy v1.1.2 (Matteo Montanari)
+  * JQuery Easy Autocomplete v1.3.5 Łukasz Pawełczak (http://github.com/pawelczak)
 <br />
 
 ## Tests Results
