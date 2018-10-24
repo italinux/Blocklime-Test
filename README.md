@@ -10,7 +10,7 @@ mockups: <a href="http://italinux.com/test-blocklime-source" target="_blank">htt
 ## Time Project Delivery
 **I STARTED coding**:    Monday **15 October** 2018 at 13h (GMT+1 Paris) **=** 7pm (Kuala Lumpur)
 
-**I've COMPLETED it**:  Monday **22 October** 2018 at 22h (GMT+1 Paris) **=** 4am (Kuala Lumpur)
+**I COMPLETED it**:  Monday **22 October** 2018 at 22h (GMT+1 Paris) **=** 4am (Kuala Lumpur)
 <br />
 <br />
 
