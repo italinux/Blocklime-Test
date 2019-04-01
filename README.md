@@ -27,7 +27,7 @@ JS:
   * Bootstrap v4.1.3
   * JQuery Waypoints v3.1.1 (https://github.com/imakewebthings/waypoints)
   * JQuery Readmore.js v2 (http://jedfoster.github.io/Readmore.js)
-  * JQuery Animafy v1.1.2 (Matteo Montanari (me): https://github.com/italinux/Blocklime-Test/blob/master/js/jquery.animafy.js)
+  * JQuery Animafy v1.1.2 (Matteo Montanari, me: https://github.com/italinux/Blocklime-Test/blob/master/js/jquery.animafy.js)
   * JQuery Easy Autocomplete v1.3.5 (http://github.com/pawelczak)
 <br />
 
